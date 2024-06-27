@@ -7,7 +7,7 @@ public class MaximumAndMinimumElementInArray {
 		
 		int a[] = {50,30,40,20,60,70};
 		
-		/*
+		
 		
 		// first declare first index as maximum 
 		int max = a[0];  // 50 
@@ -23,7 +23,7 @@ public class MaximumAndMinimumElementInArray {
 		System.out.println("maximum element in array is : "+max);
 		
 		
-		*/
+		
 		
 		
 //		**********************************************
