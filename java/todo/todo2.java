@@ -78,7 +78,9 @@ public class todo2 {
 		68. What is the difference between this() and super() in Java?
 		69. What is multitasking?
 		70. What do you mean by a Multithreaded program?
+		
 		71. What are the two ways in which Thread can be created?
+		
 
 
 
