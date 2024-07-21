@@ -11,9 +11,9 @@ public class Hashmaps {
 		
 		// insertion
 		
-//		map.put("India", 120);
-//		map.put("USA", 30);
-//		map.put("China",150);
+		map.put("India", 120);
+		map.put("USA", 30);
+		map.put("China",150);
 //		
 //		System.out.println(map);
 //		
@@ -35,18 +35,26 @@ public class Hashmaps {
 //		System.out.println(map.get("Indonesia"));
 		
 		
-		int arr[] = {12,25,18};
+//		int arr[] = {12,25,18};
+//		
+//		for(int i=0;i<3;i++) {
+//			System.out.println(arr[i]+" ");
+//		}
+//		
+//		System.out.println();
+//		
+//		for(int val : arr) {
+//			System.out.println(val + " ");
+//		}
+//		System.out.println();
+//		
+//		
 		
-		for(int i=0;i<3;i++) {
-			System.out.println(arr[i]+" ");
+		for(Map.Entry<String,Integer> e : map.entrySet()) {
+			System.out.println(e.getKey());
+			System.out.println(e.getValue());
 		}
 		
-		System.out.println();
-		
-		for(int val : arr) {
-			System.out.println(val + " ");
-		}
-		System.out.println();
 		
 
 	}
