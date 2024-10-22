@@ -20,7 +20,6 @@ public class AnagramString {
 		Arrays.sort(c2);
 		
 		return Arrays.equals(c1, c2);
-		
 	}
 
 	public static void main(String[] args) {
