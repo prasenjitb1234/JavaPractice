@@ -1,5 +1,5 @@
 package com.java.october.practice;
-
+import java.util.Random;
 import java.util.Scanner;
 import java.util.Arrays;
 public class AnagramString {
