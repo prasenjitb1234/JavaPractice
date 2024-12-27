@@ -23,6 +23,7 @@ public class BubbleSort {
 			}
 		}
 		
+		
 		System.out.println("After soring: "+Arrays.toString(a));
 		
 		
