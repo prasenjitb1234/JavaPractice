@@ -1,12 +1,21 @@
 package com.leetcode;
 
+import java.util.Arrays;
+
 // Leetcode 34 - > using binary search 
 public class FindFirstAndLastElementInSortedArray_02_BinarySearch {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 1, 3, 5, 5, 5, 5, 67, 123, 125 };
-		int x = 5;
+		int[] nums = { 1, 3, 5, 5, 5, 5, 67, 123, 125 };
+		int target = 5;
+		
+		// Create an instance of the class to invoke non-static methods
+        FindFirstAndLastElementInSortedArray_02_BinarySearch solution = new FindFirstAndLastElementInSortedArray_02_BinarySearch();
+        int[] result = solution.searchRange(nums, target);
+
+        // Print the result
+        System.out.println(Arrays.toString(result)); // Expected Output: [2, 5]
 
 	}
 
