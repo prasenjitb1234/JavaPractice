@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 //	Leetcode 34
 
-public class FindFirstAndLastElementInSortedArray {
-	
+public class FindFirstAndLastElementInSortedArray01_bruteforce {
+	// bruteforce method 
 	public static void main(String[] args) {
 
 		int[] nums = { 5, 7, 7, 8, 8, 10 };
