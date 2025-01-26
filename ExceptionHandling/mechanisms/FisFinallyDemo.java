@@ -18,6 +18,7 @@ public class FisFinallyDemo {
 		finally {
 			// clean up here 
 			if(fis != null) {
+				
 				fis.close();
 			}
 			System.out.println("File closed");
