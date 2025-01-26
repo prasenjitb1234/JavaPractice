@@ -33,9 +33,22 @@ public class Test {
 			int c = a / b;
 			System.out.println(c);
 		} catch (ArithmeticException e) {
-			System.out.println(e);
+			
+			e.printStackTrace();
+			
+			
+//			System.out.println(e);
+//			System.out.println(e.toString());
+//			System.out.println(e.getMessage());
 		}
 		System.out.println("Hello , this is after exception handling");
+		
+		
+		
+//		----- what catch block elements do ---- : 
+//		System.out.println(e);: Prints the exception type and message (e.g., java.lang.ArithmeticException: / by zero).
+//		System.out.println(e.toString());: Equivalent to e when printed; includes exception type and message.
+//		System.out.println(e.getMessage());: Prints only the exception message (/ by zero).
 
 	}
 }
