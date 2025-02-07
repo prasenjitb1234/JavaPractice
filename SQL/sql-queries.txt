@@ -226,3 +226,32 @@ ALTER TABLE students ADD PRIMARY KEY (id);
 
 
 --------------------------------
+
+
+PRIMARY KEY and FOREIGN KEY : : : : 
+
+
+CREATE TABLE city (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL UNIQUE
+);
+
+
+CREATE TABLE studs (
+    id INT NOT NULL AUTO_INCREMENT UNIQUE,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    city_id INT NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (city_id) REFERENCES city(id)
+);
+
+---------------------------------
+INNER JOIN : : : 
+
+select * from studs INNER JOIN city
+on studs.city_id = city.id;
+
+
+
+
